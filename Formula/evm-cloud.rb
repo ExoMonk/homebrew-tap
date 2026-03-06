@@ -1,26 +1,26 @@
 class EvmCloud < Formula
   desc "CLI for deploying EVM blockchain data infrastructure"
   homepage "https://github.com/ExoMonk/evm-cloud"
-  version "0.0.1-alpha4"
+  version "0.0.1-alpha5"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha4/evm-cloud_0.0.1-alpha4_darwin_arm64.tar.gz"
-      sha256 "877f8c8af11f882bba1620762818dc3c71c4d9bfa8e27263b8291005711ee10c"
+      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha5/evm-cloud_0.0.1-alpha5_darwin_arm64.tar.gz"
+      sha256 "4596c1e24fd5d38f0980472180cf426ab36517d0af9604d1ae1baf76663a0326"
     else
-      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha4/evm-cloud_0.0.1-alpha4_darwin_amd64.tar.gz"
-      sha256 "3d222ee2f50ce67a483a7c1d09de5ce127bda95518eff8d06b047d30bcf4e62f"
+      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha5/evm-cloud_0.0.1-alpha5_darwin_amd64.tar.gz"
+      sha256 "3bcd2f30690bfe75ab8282d6f6f5edd3dcec6dc5178595e689ba863ed3179f4e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha4/evm-cloud_0.0.1-alpha4_linux_arm64.tar.gz"
-      sha256 "681847ead2dcf2913fd5cdca6c03ca93c49f96023caba553a5d8bfcef99647d8"
+      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha5/evm-cloud_0.0.1-alpha5_linux_arm64.tar.gz"
+      sha256 "87cdc921002e42f8681308f2da71186fa96bfa933629a088f0b7971421ab801d"
     else
-      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha4/evm-cloud_0.0.1-alpha4_linux_amd64.tar.gz"
-      sha256 "412435046c607d33a8f1607f12a27643309ff76f9b4343cd94e367b20372aae6"
+      url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha5/evm-cloud_0.0.1-alpha5_linux_amd64.tar.gz"
+      sha256 "94aba152a267a6cd6d17aa1866fffd49b2686ee4b667cb1242faab27fa9f6ec9"
     end
   end
 
