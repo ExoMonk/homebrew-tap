@@ -7,20 +7,20 @@ class EvmCloud < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha8/evm-cloud_0.0.1-alpha8_darwin_arm64.tar.gz"
-      sha256 "3101de5fa95608f6f5b8826e0884ddca5b77a071b81ecd639dc86cc029d0baf0"
+      sha256 "fcf5bb6c14570c634fbb87bf01fb4b4098994d82343af12adbb0a936ebb5ff29"
     else
       url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha8/evm-cloud_0.0.1-alpha8_darwin_amd64.tar.gz"
-      sha256 "ca51348c8df1e943fb310a7ad65727ed5f4ff8623b123a42db1afc48d4b2948d"
+      sha256 "3d8faed896f7cc7323156a9892a9076a7c2296559d20dbd1c17887da95ee0a19"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha8/evm-cloud_0.0.1-alpha8_linux_arm64.tar.gz"
-      sha256 "b60217ad64f20dcc70c412990cd210acddca81f868526c198e08c6f307fdfae2"
+      sha256 "c64a2a9993a520607c04ea7f3f8421ff600d7c9aa624a10a37d590a7ccce6b38"
     else
       url "https://github.com/ExoMonk/evm-cloud/releases/download/0.0.1-alpha8/evm-cloud_0.0.1-alpha8_linux_amd64.tar.gz"
-      sha256 "f1d8101421173aa9f664f7dcec3c8c16d66e8917e3562bbd9446e25da90f9f9e"
+      sha256 "71ca73c16d679c4aac83b7520514955601b48997842743cdf58f76b3368d905e"
     end
   end
 
